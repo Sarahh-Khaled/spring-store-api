@@ -1,19 +1,22 @@
-# The Ultimate Spring Boot Course
+#  Store API Project
+This is a robust Backend RESTful API built with **Java** and **Spring Boot 3**. I developed this project to practice building scalable APIs, following the professional standards taught by **Mosh Hamedani**.
 
-This repository contains the starter project for Part 2 of my Spring Boot course:
+##  Features Implemented
+* **Database Management**: Configured MySQL and used Spring Data JPA for data persistence.
+* **Clean Architecture**: Followed the Controller-Service-Repository pattern for organized code.
+* **Secure Data Transfer**: Implemented **DTOs (Data Transfer Objects)** to ensure sensitive information (like passwords) is never exposed in the API.
+* **Entity Relationships**: Mapped complex relationships between Products, Categories, and Users.
+* **Professional Workflow**: Used **Git Branching** and **Pull Requests** to manage features independently.
 
-[https://codewithmosh.com/p/spring-boot-building-apis](https://codewithmosh.com/p/spring-boot-building-apis)
+##  Tech Stack
+* **Language**: Java 17
+* **Framework**: Spring Boot 3
+* **Database**: MySQL
+* **Tools**: Hibernate, Lombok, Maven
+* **Version Control**: Git & GitHub
 
-## About this Repository 
-
-This project is based on the final project from Part 1 of the course, but I’ve cleaned it up and removed unnecessary playground code so we can focus on building APIs in Part 2.
-
-You’ll be cloning this repository and coding along with me as we extend the project.
-
-To get started, clone the repository to your local machine:
-
-```sh
-git clone https://github.com/mosh-hamedani/spring-api-starter
-
-cd spring-api
-```
+##  Current Progress
+- [x] Configure MySQL & Database Migrations
+- [x] Implement Product Listing with Category ID mapping
+- [x] Build User API with secure DTOs
+- [ ] Implement Service Layer (In Progress...)
